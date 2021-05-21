@@ -1,18 +1,15 @@
 import "./AppStyles.js";
-import { Container, Header } from "./AppStyles.js";
-import Card from "./components/Card";
+import Container from "./AppStyles";
+import Header from "./components/Header/";
+import MainSection from "./components/MainSection/";
+import Footer from "./components/Footer/";
 
-function App() {
-	return (
-		<Container className="App">
-			<Header className="App-header">
-				¿Cuáles son tus necesidades como...
-			</Header>
-			<main>
-				<Card />
-			</main>
-		</Container>
-	);
-}
+const App = () => (
+	<Container>
+		<Header />
+		<MainSection />
+		<Footer />
+	</Container>
+);
 
 export default App;
