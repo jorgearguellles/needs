@@ -6,7 +6,7 @@ const Container = styled.div`
 
 const Header = styled.header`
 	background-color: #2e4e92;
-	min-height: 25vh;
+	min-height: 15vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
