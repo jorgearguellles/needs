@@ -1,13 +1,17 @@
-import "./App.css";
+import "./AppStyles.js";
+import { Container, Header } from "./AppStyles.js";
+import Card from "./components/Card";
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">
+		<Container className="App">
+			<Header className="App-header">
 				¿Cuáles son tus necesidades como...
-			</header>
-			<main>Main</main>
-		</div>
+			</Header>
+			<main>
+				<Card />
+			</main>
+		</Container>
 	);
 }
 
